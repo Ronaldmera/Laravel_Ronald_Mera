@@ -1,0 +1,41 @@
+body{
+    /* background: linear-gradient(to right, rgb(157, 219, 243), rgb(226, 181, 247)); */
+    background-color: rgb(227, 239, 250);
+}
+h1{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-style: oblique;
+}
+.contenido{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+.contenido form {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    height: auto;
+    width: 280px;
+    align-items: center;
+    background-color: rgb(193, 223, 240);
+    border-color: black;
+    border-style: solid;
+    border-radius: 8px;
+}
+.contenido input{
+    height: 20px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+}
+form button{
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+    border-radius: 4px;
+}
+form button:hover{
+    background-color: rgb(62, 129, 150);
+}
